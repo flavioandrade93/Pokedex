@@ -1,0 +1,118 @@
+.pokemons{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.pokemon{
+    margin: 0.5rem;
+    padding: .5rem 1rem;   
+    color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+
+li.pokemon.grass{
+    background-color: #a7db8d;
+}
+li.pokemon.fire{
+    background-color: #f5ac78;
+}
+li.pokemon.water{
+    background-color: #9db7f5;
+}
+li.pokemon.bug{
+    background-color: #c6d16e;
+}
+li.pokemon.poison{
+    background-color: #c183c1;
+}
+li.pokemon.electric{
+    background-color: #fae078;
+}
+li.pokemon.ground{
+    background-color: #ebd69d;
+}
+li.pokemon.fighting{
+    background-color: #d67873;
+}
+li.pokemon.fairy{
+    background-color: #ff6ff3;
+}
+li.pokemon.normal{
+    background-color: #c6c6a7;
+}
+li.pokemon.ice{
+    background-color: #bce6e6;
+}
+li.pokemon.flying{
+    background-color: #c6b7f5;
+}
+li.pokemon.psychic{
+    background-color: #fa92b2;
+}
+li.pokemon.rock{
+    background-color: #d1c17d;
+}
+li.pokemon.ghost{
+    background-color: #a292bc;
+}
+li.pokemon.dragon{
+    background-color: #a27dfa;
+}
+li.pokemon.dark{
+    background-color: #a29288;
+}
+li.pokemon.steel{
+    background-color: #d1d1e0;
+}
+
+
+.pokemon .detail img{
+    max-width: 100%;
+    height: 70px;
+}
+.pokemon .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.pokemon .number{
+    color: #000;
+    text-align: right;
+    opacity: 0.2;
+}
+.pokemon .detail .types{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.pokemon .detail .types .type{
+    padding: 0.25rem 0.5rem;
+    font-size: .625rem;
+    margin: 0.25rem 0;
+    border-radius: 1rem;
+    background: #ffffff38;
+    text-align: center;
+}
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+.pagination button{
+    padding: 0.5rem 1rem;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
